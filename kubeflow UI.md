@@ -14,7 +14,7 @@ kubeflow包括许多web UIs. 本文档重点关于如何连接使用这些UI.
 
 我们在172.16.215.116上的central Kubeflow UIs访问地址:http://172.16.215.116:31380, 如下图:
 
-![avatar](images/kubeflow_central_dashboard.png)
+![avatar](./images/kubeflow_central_dashboard.png)
 
 # [Set Up Your Notebooks](https://www.kubeflow.org/docs/notebooks/setup/)
 
@@ -33,7 +33,7 @@ This guide shows you how to set up a notebook server for your Jupyter notebooks 
 1. /api/workgroup/existing报错403
 1. js库无法从google上拉取下来
 
-![avatar](images/workgroup_jquery.png)
+![avatar](./images/workgroup_jquery.png)
 
 问题1: 看着像$(namespace)这个没有替换成该变量的值的造成,将 **$(namespace)** 改成 **kubeflow**
 
