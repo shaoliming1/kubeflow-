@@ -46,11 +46,10 @@ This guide shows you how to set up a notebook server for your Jupyter notebooks 
   
   ![avatar](https://www.kubeflow.org/docs/images/new-notebook-server.png)
   
- 1.输入server name.
- 
+ 1.输入server name,选择docker image,持久化存储大小，数据卷，等等信息，点击`create`。
  1. kubeflow会自动创建好notebook server，然后我们点击`connect`
- 
  ![avatar](./images/mynotebook_server.PNG)
+ 1.参看上面，我创建了一个叫“shao”的notebook server,里面有两个notebook文件，分别是机器学习的hello world程序-mnist手写体识别；另外一个是创建一个简单的机器学习的pipeline.后续可参考[详细官方教程](https://www.kubeflow.org/docs/notebooks/setup/#next-steps)
   
 
 
