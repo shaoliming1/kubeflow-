@@ -50,7 +50,7 @@ This guide shows you how to set up a notebook server for your Jupyter notebooks 
  
  1. kubeflow会自动创建好notebook server，然后我们点击`connect`
  
- ![avatar](./images/kubeflow_nynotebook_server.png)
+ ![avatar](./images/kubeflow_nynotebook_server.PNG)
   
 
 
