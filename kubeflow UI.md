@@ -24,7 +24,7 @@ This guide shows you how to set up a notebook server for your Jupyter notebooks 
 
 1. 打开central Kubeflow UI,我们的地址为: http://172.16.215.116:31380
 1. 在Kubeflow UI左边的面板上点击 **Notebook Servers**
-1. 需要选择namespace为“knative-serving”（`这块似乎有点问题`）
+1. 需要选择namespace
 1. 点击**NEW SERVER** 来创建notebook server.
 1. 当notebook server启动完成， 点击**CONNET**
 1. 点击**Upload**上传一个已经存在的notebook,或者点击**New**来新建一个空的notebook文件。
@@ -33,7 +33,7 @@ This guide shows you how to set up a notebook server for your Jupyter notebooks 
 1. 首先在**Kubeflow UI**左边的面板上点击**Notebook Servers**，访问部署在kubeflow上的jupyter notebook服务。
 ![avatar](https://www.kubeflow.org/docs/images/jupyterlink.png)
 1. 登录，但是我们的测试集群不用认证，跳过。
-1. 选择一个namespace:
+1. 选择一个namespace,这里我们选择“knative-serving”:
   * 点击namespace下拉列表查看可选的namespaces.
   * 选择一个namespace
 
